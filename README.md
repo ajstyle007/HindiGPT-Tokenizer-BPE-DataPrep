@@ -13,15 +13,16 @@ This repository covers the entire journey from raw noisy Hindi corpora to LLM-re
 - ⚡ Designed for billion-token scale training
 - 🧠 Used directly in HindiGPT pretraining
 
-🔤 Tokenizer Details
-Feature	Value
-Tokenizer Type	SentencePiece
-Model	BPE (Byte Pair Encoding)
-Vocabulary Size	32,768
-Language	Hindi (Devanagari only)
-Unicode Normalization	NFKC
-BOS / EOS / PAD / UNK	Enabled
-Byte Fallback	❌ Disabled
+### 🔤 Tokenizer Details
+| Feature | Value |
+|---------|------|
+| Tokenizer Type | SentencePiece |
+| Model	| BPE (Byte Pair Encoding) |
+| Vocabulary Size	| 32,768 |
+| Language	| Hindi (Devanagari only) | 
+| Unicode Normalization |	NFKC |
+| BOS / EOS / PAD / UNK |	Enabled |
+| Byte Fallback |	❌ Disabled |
 
 ### Tokenizer Training Code
 ```
